@@ -1,0 +1,34 @@
+{
+  "visual": {
+    "name": "testfiltering",
+    "displayName": "Test_filtering",
+    "guid": "testfiltering4BE6CE4CF3A94824BBA63600EB6C6BC0",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "2.3.0",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  }, 
+  "externalJS": [
+    "node_modules/jquery/dist/jquery.min.js",    
+    "external/lib-adapter.js",     
+    "node_modules/powerbi-models/dist/models.js",
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
+    "node_modules/globalize/lib/globalize.js",
+    "node_modules/globalize/lib/cultures/globalize.culture.en-US.js",
+    "node_modules/powerbi-visuals-utils-typeutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-formattingutils/lib/index.js"    
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
