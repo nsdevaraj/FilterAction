@@ -33,10 +33,10 @@ module powerbi.extensibility.visual {
         private _window: any = {};
         private _target: any;
         private hostCustom: IVisualHost;
-        private startDate1:string = "1/2/2014"
-        private endDate1:string = "1/4/2014"
-        private startDate2 :string = "1/7/2014"
-        private endDate2:string = "1/8/2014"
+        private startDate1:string = "1/2/2012"
+        private endDate1:string = "1/4/2012"
+        private startDate2 :string = "1/7/2012"
+        private endDate2:string = "1/8/2012"
         constructor(options: VisualConstructorOptions) {
             this.target = options.element;
             this.hostCustom = options.host;
